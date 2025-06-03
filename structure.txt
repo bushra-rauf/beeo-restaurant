@@ -1,0 +1,18 @@
+npx create-next-app@latest 
+npm i @mui/material
+npm i @mui/material-nextjs
+npm i @emotion/styled
+npm i @emotion/cache
+
+in layout 
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+<AppRouterCacheProvider>
+rap it around the children 
+<AppRouterCacheProvider>
+
+delete page.module.css completely
+glocal.css delete and add box-sizing and body margin: 0
+
+page.tsx delete every thing and add div and write text to check it 
+
+google = mui.com --discover the core libraries
