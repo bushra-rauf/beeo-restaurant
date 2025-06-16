@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Typography variant="h1" align="center" fontSize={60} fontWeight={600} gutterBottom>
-        Welcome to Beeo's Dinar
+        {"Welcome to Beeo's Dinar"}
       </Typography>
       <Typography variant="h4" align="center">Meals from all over the world</Typography>
 
