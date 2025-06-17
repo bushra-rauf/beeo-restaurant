@@ -87,6 +87,7 @@ export default function Home() {
           fontSize: { xs: "20px", md: "24px" },
           boxShadow: "0px 2px 5px rgba(0,0,0,0.2)",
           borderRadius: "8px",
+          overflow: 'hidden',
         }}
       >
           <Typography variant="h3" sx={{ 
